@@ -1,4 +1,4 @@
-const posts = [
+export const posts = [
     {
       id: "1",
       title: "Introduction to TypeScript",
