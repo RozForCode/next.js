@@ -1,8 +1,8 @@
 export default function Page(){
     return (
         <>
-        <h1>Welcome to about page.</h1>
-    <p>This is about page.</p>
+        <h1>Welcome to LearnABunch.</h1>
+    <p>Where you'll have answer to all your doubts.</p>
         </>
 )
 }
