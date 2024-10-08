@@ -1,14 +1,14 @@
 import {posts} from "../../../lib/placeholder-data.js";
 import Post from '../../../ui/components/posts/posts';
 // next.js\uapp\src\app\ui\components\posts\posts.tsx
-export default function Page(){
-    const post = posts.find((post)=> post.id ==='1');
+export default function Page({params}:{params:{id:string}}){
+    const post = posts.find((post)=> post.id ===params.id);
     if(!post){
-        return <p>Not found</p>
+        return <p>Not found</p> 
     }
     return (
         <>
-        <h1>Post</h1>
+        <h1 className="text-pink-400">Post</h1>
         {/* <ol>
             {posts.map((post)=>(
                 <li key={post.id}>

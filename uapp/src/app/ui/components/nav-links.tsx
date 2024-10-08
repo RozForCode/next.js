@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
+import clsx from 'clsx';
 
 const links = [
     {name:'Home',href:'/'},
@@ -19,8 +19,9 @@ export default function NavLink(){
                 <Link
                 key={link.name}
                 href={link.href}>
-                    <p style={{fontWeight:isActive?'bold':'normal'}}>
-                        {link.name}</p>
+                    <h1                 className={clsx({'bg-purple-500':isActive})}
+style={{fontWeight:isActive?'bold':'normal'}}>
+                        {link.name}</h1>
                 </Link>
             );
         })}

@@ -1,0 +1,23 @@
+/* Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    color: #666;
+    text-align: center;
+  }
+  
