@@ -8,7 +8,7 @@ export default function Page({params}:{params:{id:string}}){
     }
     return (
         <>
-        <h1 className="text-pink-400">Post</h1>
+        <h1 >Post</h1>
         {/* <ol>
             {posts.map((post)=>(
                 <li key={post.id}>
@@ -20,7 +20,10 @@ export default function Page({params}:{params:{id:string}}){
                 </li>
             ))}
         </ol> */}
-        <Post {...post}/>
+        <span className="text-pink-400">
+            
+        <Post  {...post}/>
+        </span>
         </>
     )
 }
