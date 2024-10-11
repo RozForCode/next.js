@@ -23,6 +23,7 @@ export default function Page({params}:{params:{id:string}}){
         <span className="text-pink-400">
             
         <Post  {...post}/>
+        
         </span>
         </>
     )
