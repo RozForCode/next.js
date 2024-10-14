@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <h1 className={styles.container}>Welcome to LearnABunch</h1>
-      <p>Where you'll learn a bunch.</p>
+      <p>Where you will learn a bunch.</p>
 
 
     </div>
