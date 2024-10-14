@@ -1,15 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     experimental: {
-//       appDir: true, // Enable app directory if not enabled by default
-//     },
-//     // If you are using the src directory:
-//     basePath: '/src', // Optionally set basePath to look in the src folder
-//   };
+const nextConfig = {
+    experimental: {
+      appDir: true, // Enable the app directory if not enabled by default
+    },
+    reactStrictMode: true, // Enable strict mode for better debugging
+    swcMinify: true, // Use the faster SWC compiler for minification
+  };
   
-//   export default nextConfig;
+  export default nextConfig;
   
